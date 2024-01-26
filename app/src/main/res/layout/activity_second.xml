@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/summaryTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="133dp"
+        android:layout_height="73dp"
+        android:layout_below="@+id/summaryTextView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="259dp"
+        android:layout_marginTop="243dp"
+        android:layout_marginEnd="259dp"
+        android:layout_marginBottom="56dp"
+        android:text="Powrót" />
+
+    <Button
+        android:id="@+id/goToThirdButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroup"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="54dp"
+        android:text="Przejdź do trzeciego widoku" />
+</RelativeLayout>
